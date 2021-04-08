@@ -1,0 +1,170 @@
+doctype html
+html(lang='th')
+	include ./header.jade
+	body
+		include ./menu.jade
+		.course-slide
+			.row.expanded
+				a(href="tel:02-252-8633").call.show-for-small-only
+				.slide-group
+					.item(style="background-image: url(./img/course/slider.jpg)")
+						.img.column.large-7.large-push-5
+						.say.column.large-5.large-pull-7
+							.small-10.small-centered.large-7.large-offset-4
+								.title CU-TEP Course
+								p ด้วยเทคนิคการสอนที่เราทุ่มเทและพัฒนาอย่างต่อเนื่อง ทำให้กล้ารับประกันได้ว่า เทคนิคของเราจะทำให้คุณทำข้อสอบได้สบายๆ ในเวลาจำกัด หากใครกลัวว่าจะเรียนไม่ทัน ไม่ต้องกลัวอีกต่อไป! เพราะคอร์ส cu tep 
+					.item(style="background-image: url(./img/course/slider.jpg)")
+						.img.column.large-7.large-push-5
+						.say.column.large-5.large-pull-7
+							.small-10.small-centered.large-7.large-offset-4
+								.title CU-TEP Course
+								p ด้วยเทคนิคการสอนที่เราทุ่มเทและพัฒนาอย่างต่อเนื่อง ทำให้กล้ารับประกันได้ว่า เทคนิคของเราจะทำให้คุณทำข้อสอบได้สบายๆ ในเวลาจำกัด หากใครกลัวว่าจะเรียนไม่ทัน ไม่ต้องกลัวอีกต่อไป! เพราะคอร์ส cu tep 
+		.course-intro
+			.row
+				.medium-6.medium-push-6.column
+					.video
+						img(src="./img/course/video.jpg")
+				.medium-6.medium-pull-6.column
+					.desc
+						p หากคุณเคยอ่อนใจกับการหาเทคนิคเพื่อสอบผ่าน cu tep จนท้อแท้ จะอ่านหนังสือด้วยตัวเองก็กลัวเพราะไม่มีใครคอยแนะนำ ไม่มั่นใจเพราะยังไม่รู้แนวข้อสอบ cutep มีบางเรื่องที่เป็นจุดอ่อน
+						.price 8,600 บาท
+							span 10,500 บาท
+						.time วันเสาร์-อาทิตย์ เวลา 10:00-16:00น.
+		.course-detail
+			.tabbar
+				.column.tab-list
+					.row
+						a(href="#").detail.active รายละเอียดคอร์ส
+						a(href="#").ps หมายเหตุ
+				.row
+					.tabbar-content.column
+						.content.detail.fix-height
+							p รายละเอียดคอร์ส เรียน cu-tep
+							p ด้วยเทคนิคการสอนที่เราทุ่มเทและพัฒนาอย่างต่อเนื่อง ทำให้กล้ารับประกันได้ว่า เทคนิคของเราจะทำให้คุณทำข้อสอบได้สบายๆ ในเวลาจำกัด หากใครกลัวว่าจะเรียนไม่ทัน ไม่ต้องกลัวอีกต่อไป! เพราะคอร์ส cu tep ของเรายืดหยุ่นได้ และเป็นกันเองกับผู้เรียนมากที่สุด มีโจทย์ให้ฝึกทำมากมายพร้อมเฉลยข้อสอบที่ออกแน่นอน คุณจะได้ไม่พลาดคะแนนสำคัญๆ ไป มีการทบทวนบทเรียนทุกครั้งทำให้การเรียนลื่นไหลและสามารถจำรายละเอียดได้ ใครกลัวเรื่องคำศัพท์ ท่องไม่ครบ รู้ไม่หมด ไม่ต้องกลัวอีกต่อไป เพราะเรามีเทคนิคให้คุณจำคำศัพท์สำคัญๆ ได้อย่างแน่นอน คอนเฟิร์ม! 
+							ul
+								li รับรองผล รับประกันสอบผ่าน 550+ ล้านเปอร์เซ็นต์! 
+								li สอนเคล็ดลับพิเศษ การทำข้อสอบ cu-tep reading แบบอ่านแค่ครึ่งเดียว ไม่ต้องแปล แต่เข้าใจทันที    
+
+							p รายละเอียดขั้นตอนการชำระเงิน : ทางผู้สนใจเรียนสามารถชำระค่าเรียนได้โดย
+							p 1. ผ่านทางธนาคารบัญชี "จุฬาติวเตอร์" 
+							p 2. ชำระผ่านทางบัตรเครดิตที่ทางสถาบัน โดยทางสถาบันไม่มีการเก็บค่าธรรมเนียม
+
+							p ทั้งนี้ทางสถาบันไม่มีการชำระเงินสดค่าเรียนที่ทางสถาบัน
+							a(href="#").read-more.show-for-small-only อ่านต่อ
+						.content.ps
+							p หมายเหตุ
+		.schedule
+			.row
+				.column
+					h3 ตารางเรียน
+				.column
+					table(cellspacing="0").hover.unstriped
+						thead
+							tr
+								th รหัสคอร์ส
+								th วันเรียน
+								th รอบ
+								th เวลา
+								th.show-for-large Test Date Exam
+								th เหลือที่นั่ง
+								th.show-for-large อาจารย์
+								th สมัคร
+						tbody
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+							tr
+								td TB261116
+								td.hilight 26 พ.ย. - 18 ธ.ค.
+								td ส.-อา.
+								td.hilight 10:00-16:00
+								td.show-for-large 18 ธ.ค. 2559
+								td.hilight 10
+								td.show-for-large โต้โต, แพร, เบส
+								td
+									a(href="").apply สมัคร
+		.search-box.clearfix
+				.brand.medium-12.large-6.column
+					.lead-img.small-3.large-5.column
+						img(src="./img/brand/brand.png")
+					.small-9.large-7.column
+						p “จุฬาติวเตอร์” สถาบันอันดับ 1 <br>เพื่อเตรียมความพร้อม หลักสูตรนานาชาติ
+						span สอนโดย อ.เปิ้ล และทีมคณาจารย์จุฬา แท้ 100%
+				.search.large-6.show-for-large.column
+					form
+						.large-6.column
+							input(type="text", placeholder="ค้นหาคอร์สเรียน")
+						.large-6.column
+							button ค้นหาคอร์ส
+		.course-ads
+			.row.expanded
+				.img.medium-6.medium-push-6.large-7.large-push-5.column
+				.apply.medium-6.medium-pull-6.large-5.large-pull-7.column
+					.small-10.small-centered.medium-9.medium-offset-2.large-6.large-offset-5
+						p เรียน TOEIC ONLINE<br>กับ <strong>“จุฬาติวเตอร์”</strong> ทุกที่ทุกเวลา
+						span ด้วยรูปแบบคอร์ส ที่เหมาะกับคนห่วงหายอังกฤษไปนาน
+						.clearfix
+						a(href="#") สมัครเรียน
+		//-Footer
+		include ./footer-social.jade
+		include ./footer-quote.jade
+		include ./footer-course.jade
+		include ./footer-course-link.jade
+		include ./footer.jade

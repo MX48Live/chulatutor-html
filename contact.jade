@@ -1,0 +1,47 @@
+doctype html
+html(lang='th')
+	include ./header.jade
+	body
+		include ./menu.jade
+		.contact.header
+			h2 CONTACT US
+		.contact.map
+			.row
+				img(src="./img/contact/map.png")
+		.contact.detail
+			.row.medium-8.medium-centered
+				.large-4.column
+					p <strong>เวลาเปิดทำการ</strong>
+					p วันจันทร์ - ศุกร์<br>เวลา 09.00 - 20.30 น.
+					p วันเสาร์ - อาทิตย์<br>เวลา 08.30 - 17.00 น.
+					hr
+					p <strong>ติดต่อสมัครเรียน</strong>
+					p 02-252-8633
+					p Email :  admin@chulatutor.com
+				.large-4.column
+					p <strong>ติดต่อ</strong>
+					p.address 430/27-28 สยามสแควร์ ซอย9 ถ.พระราม 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพฯ<br>(ชั้น 2-4 ตรงข้ามศูนย์หนังสือจุฬาฯ สยาม)
+					p.cal 02-252-8633
+					p.mail admin@chulatutor.com
+					hr
+					p <strong>ติดต่อจัดอบรม, ฝ่ายจัดซื้อ, ฝ่ายการตลาด:</strong>
+					p chulatutor@live.com
+					br
+					p <strong>ต้องการติชมการเรียนการสอน<br>หรือการให้บริการไม่เป็นที่พอใจ</strong>
+					p chulatutor@windowslive.com
+					br
+					p <strong>ติดต่อปัญหาการใช้งานบนเว็บไซต์</strong>
+					p webmaster@chulatutor.com
+				.large-4.column.form
+					form
+						label ส่งข้อความ
+						input(type="text", placeholder="ชื่อผู้ติดต่อ (Name)")
+						input(type="email", placeholder="อีเมล (Email)")
+						textarea(type="text", placeholder="ข้อความ (Messages)" )
+						.capcha
+							img(src="./img/contact/capcha.png")
+						.submit
+							button ส่งข้อความ
+		//-Footer
+		include ./footer-social.jade
+		include ./footer.jade

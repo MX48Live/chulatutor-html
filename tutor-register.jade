@@ -1,0 +1,149 @@
+doctype html
+html(lang='th')
+	include ./header.jade
+	body
+		include ./menu.jade
+		.tutor-register.header
+			h2 TUTOR REGISTER
+		.tutor-register.intro
+			.img.medium-4.column
+				.img1(style="background-image:url('./img/tutor-register/img1.jpg')")
+				.img2(style="background-image:url('./img/tutor-register/img2.jpg')").show-for-medium
+			.detail.medium-8.large-5.column.end
+				p.title รับสมัครติวเตอร์
+				p ผู้ที่มี ทัศนคติที่ดีต่อการสอน มีจิตวิญญาณของความเป็นติวเตอร์ โดยผู้สมัครติวเตอร์์ทุกท่านจะถูกสัมภาษณ์โดย อ.พรพรรณ (พี่เปิ้ล) เพื่อดูความเหมาะสม โดยทางสถาบันจะคัดเลือกผู้สมัครติวเตอร์จากคุณสมับัติต่างๆ หากผู้สนใจสมัครติวเตอร์ท่านใดมีสนใจเป็นติวเตอร์ทางสถาบันสามารถส่งประวัติ หลักฐานการสมัครติวเตอร์มาที่ อีเมล์ info@chulatutor.com หรือ กรอกแบบฟอร์มด้านล่างนี้ ทางสถาบันกวดวิชา อ.พรพรรณ (พี่เปิ้ล) หวังเป็นอย่างยิ่งว่าจะได้ร่วมงานกับทางท่าน
+				hr
+				p.title คุณสมบัติของผู้สมัครติวเตอร์
+				p.no-indent 1. มีทัศนคติที่ดีต่องานสอน<br>2.มีความรับผิดชอบในการสอน<br>3.ตรงต่อเวลา<br>4.หากทีประสบการณ์การสอนจะพิจาราณาเป็นพิเศษ
+				hr
+				p.title ขั้นตอนการสมัครติวเตอร์
+				p.no-indent 1. กรอกแบบฟอร์มสมัครติวเตอร์ <br>2. ทางสถาบันจะพิจารณาคุณสมบัติติวเตอร์ หากติวเตอร์ท่านใดคุณสมบัติผ่าน ทางสถาบันจะนัดสอบสัมภาษณ์ <br>3. หลักฐานที่นำมาวันสอบสัมภาษณ์
+				ul
+					li - สำเนาบัตรประชาชน
+					li - สำเนาทะเบียนบ้าน
+					li - หลักฐานวุฒิการศึกษา
+					li - รูปภาพ 1 - 2 นิ้ว 1 ใบ
+			.clearfix
+		.tutor-register.form
+			.medium-10.medium-centered.large-6.large-centered.column.row
+				h3 สมัครติวเตอร์
+				form
+					.block
+						.title ข้อมูลส่วนตัว
+						.form.row
+							.medium-7.column
+								label ชื่อ - นามสกุล
+								input(type="text", placeholder="กรอกชื่อ - นามสกุล", autocomplete="off").error
+								.error-message ผิดดดดด
+							.medium-5.column
+								.small-6.large-8.column.row.end
+									label ชื่อเล่น
+									input(type="text", placeholder="ชื่อเล่น")
+							.medium-7.column
+								label หมายเลขบัตรประชาชน
+								input(type="text", placeholder="หมายเลขบัตรประชาชน")
+							.medium-5.column
+								.small-6.large-8.column.row.end
+									label วันเกิด
+									input(type="text", placeholder="01-01-2559")
+					.block
+						.title การติดต่อ
+						.form.row
+							.medium-7.column
+								label เบอร์มือถือ
+								input(type="number", placeholder="เบอร์มือถือ")
+							.medium-7.column
+								label อีเมล
+									input(type="email", placeholder="อีเมล")
+							.medium-12.column
+								.large-12.column.row.end
+									label วันเกิด
+									textarea(type="text", placeholder="กรอกที่อยู่")
+					.block
+						.title ข้อมูลการศึกษา
+						.form.row
+							.column
+								.title ระดับปริญญาตรี
+							.medium-7.column
+								label ชื่อสถานศึกษา
+								input(type="text", placeholder="ชื่อสถานศึกษา")
+							.medium-5.column
+								label คณะ
+								input(type="text", placeholder="คณะ")
+							.medium-7.column
+								label สาขา
+									input(type="text", placeholder="สาขา")
+							.medium-5.column
+								.row
+									.small-6.column
+										label ชั้นปี
+										input(type="number", placeholder="ชั้นปี")
+									.small-6.column
+										label GPA
+										input(type="text", placeholder="GPA")
+							hr
+							.column
+								.title ระดับปริญญาโท
+							.medium-7.column
+								label ชื่อสถานศึกษา
+								input(type="text", placeholder="ชื่อสถานศึกษา")
+							.medium-5.column
+								label คณะ
+								input(type="text", placeholder="คณะ")
+							.medium-7.column
+								label สาขา
+									input(type="text", placeholder="สาขา")
+							.medium-5.column
+								.row
+									.small-6.column
+										label ชั้นปี
+										input(type="number", placeholder="ชั้นปี")
+									.small-6.column
+										label GPA
+										input(type="text", placeholder="GPA")
+							hr
+							.column
+								.title ระดับปริญญาเอก
+							.medium-7.column
+								label ชื่อสถานศึกษา
+								input(type="text", placeholder="ชื่อสถานศึกษา")
+							.medium-5.column
+								label คณะ
+								input(type="text", placeholder="คณะ")
+							.medium-7.column
+								label สาขา
+									input(type="text", placeholder="สาขา")
+							.medium-5.column
+								.row
+									.small-6.column
+										label ชั้นปี
+										input(type="number", placeholder="ชั้นปี")
+									.small-6.column
+										label GPA
+										input(type="text", placeholder="GPA")
+					.block
+						.title ข้อมูลการสอน
+						.form.row
+							.medium-12.column
+								label วิชา
+								textarea(type="text", placeholder="วิชา (กรุณาระบุวิชาที่สนใจสอน และระดับชั้นอย่างละเอียด)")
+							.medium-12.column
+								label ประสบการณ์สอน
+								textarea(type="text", placeholder="ประสบการณ์สอน")
+							.medium-12.column
+								label สาเหตุที่สนใจสอนพิเศษ
+								textarea(type="text", placeholder="สาเหตุที่สนใจสอนพิเศษ")
+							.small-5.column.end
+								lable แนบรูปภาพ
+								input(type="file")
+					.submit-group
+						.capcha
+							img(src="./img/tutor-register/capcha.png")
+						.submit
+							button สมัคร
+
+
+							
+		//-Footer
+		include ./footer-social.jade
+		include ./footer.jade
